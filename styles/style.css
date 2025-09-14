@@ -16,7 +16,7 @@ body {
 /* Navbar Section */
 .header {
   width: 100%;
-  position: sticky; /* Sticky Navbar */
+  position: fixed; /* Sticky Navbar */
   top: 0;
   padding: 1rem 0;
   background: rgba(255, 255, 255, 0.7);
@@ -136,7 +136,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem auto;
+    margin: 5rem auto;
   padding: 5px 120px;
 }
 .img-div {
