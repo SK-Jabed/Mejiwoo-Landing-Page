@@ -57,11 +57,13 @@ mejiwoo-landing-page/
 ## 🚀 Installation & Setup
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/SK-Jabed/Mejiwoo-Landing-Page.git
    ```
 
 2. **Navigate to project directory**
+
    ```bash
    cd mejiwoo-landing-page
    ```
