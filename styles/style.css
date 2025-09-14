@@ -13,14 +13,13 @@ body {
 }
 
 /* Navbar Section Styles Start Here */
-/* Navbar Section */
 .header {
   width: 100%;
-  position: fixed; /* Sticky Navbar */
+  position: fixed;
   top: 0;
   padding: 1rem 0;
   background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(12px); /* Blur background */
+  backdrop-filter: blur(12px);
   z-index: 1000;
   transition: background 0.3s ease;
 }
@@ -33,7 +32,6 @@ body {
   margin: 0 auto;
 }
 
-/* Left: Logo */
 .logo {
   display: flex;
   align-items: center;
@@ -48,7 +46,6 @@ body {
   letter-spacing: 1.5px;
 }
 
-/* Middle: Nav Links */
 .nav-links {
   display: flex;
   gap: 2rem;
@@ -63,7 +60,6 @@ body {
   transition: color 0.3s ease;
 }
 
-/* Hover underline animation */
 .nav-links a::after {
   content: "";
   position: absolute;
@@ -83,13 +79,11 @@ body {
   width: 100%;
 }
 
-/* Right: Buttons */
 .nav-buttons {
   display: flex;
   gap: 1rem;
 }
 
-/* Search Button */
 .search-btn {
   background: #f3f4f6;
   border: none;
@@ -131,21 +125,22 @@ body {
 
 /* Hero Section Styles Start Here */
 .hero {
-    max-width: 1400px;
-    background-color: #f7f6f0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5rem auto;
+  max-width: 1400px;
+  background-color: #f7f6f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem auto;
   padding: 5px 120px;
 }
+
 .img-div {
   width: 14%;
 }
 
 .text-div {
-    width: 18%;
-    text-align: center;
+  width: 18%;
+  text-align: center;
   margin-left: 60px;
 }
 .text-div-header {
@@ -163,15 +158,17 @@ body {
   background-color: black;
   margin: 0.5rem 0;
 }
+
 .text-div p:nth-child(4) {
   font-size: 1rem;
 }
-/* General Section Styles */
+/* Main Sections Styles */
 .collection-section {
   max-width: 80%;
   margin: 4rem auto;
   padding: 3rem 2rem;
 }
+
 .collection-section h3 {
   text-align: center;
   font-size: 3rem;
@@ -179,6 +176,7 @@ body {
   margin-bottom: 3rem;
   position: relative;
 }
+
 .collection-section h3::after {
   content: "";
   display: block;
@@ -189,7 +187,6 @@ body {
   border-radius: 2px;
 }
 
-/* Product Grid */
 .Product-section {
   display: flex;
   gap: 2rem;
@@ -215,7 +212,6 @@ body {
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
-/* Product Image */
 .inner-img {
   overflow: hidden;
   border-radius: 10px;
@@ -229,7 +225,6 @@ body {
   transform: scale(1.08);
 }
 
-/* Texts */
 .product-text {
   font-size: 1.8rem;
   font-weight: 600;
@@ -247,7 +242,6 @@ body {
   margin-top: 0.5rem;
 }
 
-/* Buttons */
 .product-div > button {
   margin-top: 1rem;
   padding: 0.6rem 1.8rem;
@@ -267,8 +261,7 @@ body {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
 
-
-/* Footer Styling */
+/* Footer Section styling */
 .footer {
   background-color: #f0f4f8;
   padding: 2rem 1rem;
@@ -298,7 +291,7 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   color: #1e90ff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .footer-description {
@@ -365,36 +358,4 @@ body {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .footer {
-    padding: 2rem 1rem;
-  }
-
-  .footer-nav {
-    gap: 1rem;
-    margin-top: 2rem;
-  }
-
-  .footer-social {
-    gap: 1.5rem;
-    margin-top: 1.5rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .footer-description {
-    font-size: 0.9rem;
-  }
-
-  .footer-nav-link {
-    font-size: 0.9rem;
-  }
-
-  .social-icon {
-    width: 1.2rem;
-    height: 1.2rem;
-  }
 }
